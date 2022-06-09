@@ -1,7 +1,6 @@
 import React from 'react';
-import banner from '../Images/New Project.png';
-import img from '../Images/Arif_Ali_Protfolio-1.png';
-import Resume from '../Images/Md. Arif Ali Resume.pdf';
+import img from '../Assets/Arif_Ali_Protfolio-1.png';
+import Resume from '../Assets/Md. Arif Ali Resume.pdf';
 
 
 const Banner = () => {
