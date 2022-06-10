@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 import img from '../Assets/Arif_Ali_Protfolio-1.png';
 import Resume from '../Assets/Md. Arif Ali Resume.pdf';
 
@@ -6,18 +7,23 @@ import Resume from '../Assets/Md. Arif Ali Resume.pdf';
 const Banner = () => {
 
     return (
-        <div className='container-fluid'>
-            <div className="row bg-secondary justify-content-center align-items-center">
-                <div className="col-md-6">
-                    <div className='float-end text-light' style={{width: '350px'}}>
-                        <span>Hello</span>
-                        <h1 className='fw-bolder text-warning mb-0'>I'm Arif Ali</h1>
-                        <h2 className='mt-0 mb-3'>Frontend Developer</h2>
-                        <a href={Resume} class="btn btn-outline-warning btn-lg"  download="My_File.pdf">Download Resume</a>
+        <div className='container-fluid' style={{backgroundColor: '#191919'}}>
+            <div className="row g-3 align-items-center mb-5">
+                <div className="col-md-6 order-md-1 order-2 p-4">
+                    <div className='float-end text-light' style={{ width: '350px' }}>
+                        <div className='fadeInDown'>
+                            <span className='fs-5'>Hello</span>
+                            <h1 className='fw-bolder text-info mb-0'>I'm Arif Ali</h1>
+                            <h2 className='mb-0'>Frontend Developer</h2>
+                        </div>
+                        <a href={Resume} class="btn btn-outline-info btn-lg my-4" download="My_Resume.pdf">Download Resume</a>
                     </div>
                 </div>
-                <div className="col-md-6 text-center">
-                    <img src={img} className='w-75' alt="#" />
+                <div className="col-md-6 text-center position-relative order-md-2 order-1">
+                    <div className='slideInRight'>
+                        <div className='img-bg'></div>
+                        <img src={img} className='position-relative w-75' alt="#" />
+                    </div>
                 </div>
             </div>
         </div>
