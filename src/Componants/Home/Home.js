@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutMe from './AboutMe';
+import Achievement from './Achievement';
 import Banner from './Banner';
 import ContactMe from './ContactMe';
 import Project from './Project';
@@ -10,8 +11,9 @@ const Home = () => {
     return (
         <div className=''>
             <Banner />
-            <Services />
             <Project />
+            <Services />
+            <Achievement />
             <AboutMe />
             <ContactMe />
         </div>

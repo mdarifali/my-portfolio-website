@@ -7,11 +7,11 @@ import Resume from '../Assets/Md. Arif Ali Resume.pdf';
 const Banner = () => {
 
     return (
-        <div className='container-fluid' style={{backgroundColor: '#191919'}}>
+        <div className='container-fluid' style={{ backgroundColor: '#191919' }}>
             <div className="row g-3 align-items-center mb-5">
-                <div className="col-md-6 order-md-1 order-2 p-4">
+                <div className="col-md-6 order-md-1 order-2 p-4" data-aos="fade-right">
                     <div className='float-end text-light' style={{ width: '350px' }}>
-                        <div className='fadeInDown'>
+                        <div>
                             <span className='fs-5'>Hello</span>
                             <h1 className='fw-bolder text-info mb-0'>I'm Arif Ali</h1>
                             <h2 className='mb-0'>Frontend Developer</h2>
@@ -20,7 +20,9 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="col-md-6 text-center position-relative order-md-2 order-1">
-                    <div className='slideInRight'>
+                    <div data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <div className='img-bg'></div>
                         <img src={img} className='position-relative w-75' alt="#" />
                     </div>
