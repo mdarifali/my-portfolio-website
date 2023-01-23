@@ -14,7 +14,7 @@ const Banner = () => {
                         <div>
                             <span className='fs-5'>Hello</span>
                             <h1 className='fw-bolder text-info mb-0'>I'm Arif Ali</h1>
-                            <h2 className='mb-0'>Frontend Developer</h2>
+                            <h2 className='mb-0'>Full-Stack Developer</h2>
                         </div>
                         <a href={Resume} class="btn btn-outline-info btn-lg my-4" download="My_Resume.pdf">Download Resume</a>
                     </div>
