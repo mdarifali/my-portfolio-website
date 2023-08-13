@@ -3,6 +3,7 @@ import { AiOutlineHome, AiOutlineUser, AiOutlineFundProjectionScreen } from 'rea
 import { MdOutlineContactMail } from 'react-icons/md';
 import { SiMicrodotblog } from 'react-icons/si';
 import { Link } from 'react-router-dom';
+import NightMode from '../NightMode';
 
 const Navbar = () => {
 
@@ -13,6 +14,7 @@ const Navbar = () => {
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    <NightMode />
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav m-auto p-2">
                             <Link class="nav-link active text-info me-5" 

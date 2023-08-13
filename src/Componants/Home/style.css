@@ -7,17 +7,16 @@
     position: absolute;
     top: 0;
     right: 0;
-
 }
 
 .card-bg {
     background-color: #191919;
     height: 20rem;
     border-radius: 15px;
-    transition: 0.90s all ease;
+    transition: 1s ease;
     cursor: pointer;
 
 }
 .card-bg:hover {
-    background-color: #08e1e979;
+    background-color: #579BB1;
 }
